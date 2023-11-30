@@ -47,7 +47,7 @@ public class GradeAverage25206 {
         for (int i = 0; i < 20; i++) {
             str[i] = bfr.readLine(); // sc.nextLine() 과 같은 개념이다.
             StringTokenizer st = new StringTokenizer(str[i], " "); // str[] 배열의 i번째에 위치한 값을 " " 공백을 기준으로 구분해 토큰한다는 의미이다.
-            String subject = st.nextToken(); // 전공 과목명
+            st.nextToken(); // 전공 과목명
             double score = Double.parseDouble(st.nextToken()); // 학점
             String grade = st.nextToken(); // 등급 --> 과목 평점
 
