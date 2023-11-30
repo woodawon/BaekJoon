@@ -29,7 +29,7 @@ import java.util.StringTokenizer;
 17
 */
 
-public class step1 {
+public class Oper_depth14888 {
 
 	// 변수 선언 -> 지역 변수가 아니라 전역 변수이기 때문에
 	// 전역 변수를 해당 클래스의 메서드 내에서 사용하려면 변수 선언 시 static 키워드를 자료형으로 사용해줘야 한다.

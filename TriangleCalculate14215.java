@@ -5,7 +5,7 @@ import java.util.Scanner;
  *(가장 긴 변의 길이) < (나머지 변 1의 길이 + 나머지 변2의 길이)
  */
 
-public class Main {
+public class TriangleCalculate14215 {
 
 	public static void main(String[] args) {
 

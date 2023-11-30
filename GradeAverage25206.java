@@ -32,7 +32,7 @@ CompilerDesign 3.0 D0
 ProblemSolving 4.0 P
 */
 
-public class Main {
+public class GradeAverage25206 {
     public static void main(String[] args) throws IOException { // BufferedReader를 사용할 때, buffer.readLine() 이나 buffer.close() 를 사용하게 되면 발생할 수 있는 예외 처리들을 관리해주기 위해 IOException을 던져줘야 한다.
         BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
         // BufferedReader : Scanner 와 같은 기능을 제공해 사용자의 입력값을 받아와 처리하지만,

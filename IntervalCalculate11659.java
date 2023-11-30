@@ -1,5 +1,3 @@
-package algorithm;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +5,7 @@ import java.util.StringTokenizer;
 
 /* 구간 합 구하기 */
 
-public class one {
+public class IntervalCalculate11659 {
 
 	public static void main(String[] args) throws IOException {
 		// throws IOException을 main함수에 붙여주는 이유 
