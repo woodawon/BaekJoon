@@ -1,6 +1,13 @@
-
-
 import java.util.Scanner;
+
+/*
+ * - 배열 -
+ * 
+ * <예시>
+ * 3
+ * 50 60 70
+ * 결과 : 60.0
+ * */
 
 public class Average1546 {
 
@@ -21,7 +28,7 @@ public class Average1546 {
 			sum += A[i];
 		}
 		System.out.println(sum * 100.0 / max / N); // 식 : 총합 * 100 / 최고점수 / 과목 개수 = 평균값 
-
+		sc.close();
 	}
 
 }
