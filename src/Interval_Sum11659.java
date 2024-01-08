@@ -1,9 +1,20 @@
 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+
+/*
+ * - 구간 합 -
+ * 
+ * <예시>
+ * 5 3 (5개 데이터 입력, 질문 3번)
+ * 5 4 3 2 1
+ * 1 3 (1부터 3번째까지의 배열의 구간 합)
+ * 2 4
+ * 5 5
+ * 결과 : 12, 9, 1
+ * */
 
 public class Interval_Sum11659 {
 
@@ -26,7 +37,7 @@ public class Interval_Sum11659 {
 			strToken = new StringTokenizer(buf.readLine()); // 질문들 또한 토큰으로 받아올거기 때문에 반복문 안에 토큰 비워내기 작업 넣어주기
 			int i = Integer.parseInt(strToken.nextToken());
 			int j = Integer.parseInt(strToken.nextToken());
-			System.out.println(S[j] - S[i - 1]); // 구간 합 배열에서 
+			System.out.println(S[j] - S[i - 1]); 
 		}
 	}
 
