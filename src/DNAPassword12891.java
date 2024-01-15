@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /*
- * - DNA 비밀번호 -
+ * - DNA 비밀번호 - (슬라이딩 윈도우 개념)
  * : 비밀번호 유효성 검사 (슬라이딩 윈도우 알고리즘) 
  * -> 2개의 포인터로 배열의 특정 범위를 지정했을 때, 다음 범위(window)를 유지한 채로 이동(sliding)하며 처리하는 것
  * 
