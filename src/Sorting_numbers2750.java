@@ -24,9 +24,17 @@ public class Sorting_numbers2750 {
 		
 		int N = 1000000;
 		int cnt = 0;
-		for (int i = 0;i < N;i++) {
+		
+		for (int i = 0;i < N;i++) { // N 연산 횟수 : O(n) - 2N, 3N 등의 상수는 중요하지 X
 			System.out.println("연산 횟수 : " + cnt++);
 		}
+		
+		for(int i = 0;i < N;i++) { // N^2 연산 횟수 : O(n^2)
+			for(int j = 0;j < N;j++) {
+				System.out.println("연산 횟수 : " + cnt++);
+			}
+		}
+		
 
 	}
 
