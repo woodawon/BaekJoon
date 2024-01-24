@@ -5,6 +5,16 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Stack;
 
+/*
+ * - 오큰수 구하기 -
+ * : 수열에서 i번째 값인 A보다 오른쪽에 있는 값들 중에서 A보다 큰 수들 중, 수열의 가장 왼쪽에 위치한 수 구하기
+ * 
+ *  <예시>
+ *  4
+ *  3 5 2 7
+ *  결과 : 5 7 7 -1 (수열의 i번째 값보다 큰 수가 오른쪽에 없을 경우, -1을 출력)
+ * */
+
 public class Large_numbers17298 {
 
 	public static void main(String[] args) throws IOException {

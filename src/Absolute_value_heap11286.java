@@ -4,6 +4,33 @@ import java.io.InputStreamReader;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/*
+ * - 절댓값 힙 구현 -
+ * : 우선순위 큐의 우선순위 조건을 수정할 수 있는지?
+ * 
+ * <예시>           <결과>
+ *  18			   -1
+ *  1				1
+ * -1				0
+ *  0			   -1
+ *  0 			   -1
+ *  0				1
+ *  1				1
+ *  1			   -2
+ * -1				2
+ * -1				0
+ *  2				
+ * -2				
+ *  0				
+ *  0
+ *  0
+ *  0
+ *  0
+ *  0
+ *  0
+ *  
+ * */
+
 public class Absolute_value_heap11286 {
 
 	public static void main(String[] args) throws IOException {
