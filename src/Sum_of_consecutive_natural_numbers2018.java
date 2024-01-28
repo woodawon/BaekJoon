@@ -18,6 +18,10 @@ import java.util.Scanner;
 /*
  * - 투 포인터란? -
  * : 2개의 포인터로 알고리즘 시간 복잡도를 O(nlogn)이 아닌 O(n)의 시간 복잡도로 최적화하여 사용할 수 있는 알고리즘
+ * 
+ * <예시>
+ * 15
+ * 결과 : 4
  * */
 
 public class Sum_of_consecutive_natural_numbers2018 {

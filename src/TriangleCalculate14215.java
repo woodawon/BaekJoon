@@ -3,6 +3,10 @@ import java.util.Scanner;
 /*
  * <삼각형 길이 공식>
  *(가장 긴 변의 길이) < (나머지 변 1의 길이 + 나머지 변2의 길이)
+ *
+ *<예시>
+ *1 2 3
+ *결과 : 5
  */
 
 public class TriangleCalculate14215 {
