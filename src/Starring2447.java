@@ -18,12 +18,14 @@ public class Starring2447 {
 		makeStar(0, 0, N, false);
 
 		for (int i = 0; i < N; i++) {
-			bw.write(arr[i]);
+			for(int j = 0; j < N; j++) {
+				bw.write(arr[i][j]);
+			}
 			bw.write('\n');
 		}
 		bw.flush();
 		bw.close();
-
+		sc.close();
 	}
 
 	public static void makeStar(int x, int y, int N, boolean blank) {
@@ -43,9 +45,8 @@ public class Starring2447 {
 			arr[x][y] = '*';
 			return;
 		}
-
-		for (int i = x; i < x; i += size) {
-			for (int j = y; j < y; j += size) {
+		for (int i = x; i < x + N; i += size) {
+			for (int j = y; j < y + N; j += size) {
 				count++;
 				if (count == 5) { // 다섯 번째 count 도달 시 공백 입력
 					makeStar(i, j, size, true);
