@@ -32,7 +32,7 @@ public class Recursive_Study {
 	
 	public static int factorial(int num) {
 		// 팩토리얼 메서드
-		// 3 -> 3*2*1=6, 5->5*4*3*2*1=120
+		// 5->5*4*3*2*1=120
 		if(num == 1) {
 			return 1;
 		}
