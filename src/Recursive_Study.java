@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /*
- * 재귀함수 공부 - 피보나치 수열, 팩토리얼
+ * 재귀함수 공부 - 피보나치 수열, 팩토리얼 메서드
  * */
 public class Recursive_Study {
 	static ArrayList<Integer> list = new ArrayList<>();
