@@ -15,6 +15,10 @@ import java.util.StringTokenizer;
  * 양 끝에서 데이터를 삽입하거나 삭제(addFirst, removeFirst, addLast, removeLast)할 수 있는
  * 자료구조를 의미하는 '덱(deque)'을 이용해 정렬 알고리즘을 사용하지 않고도 정렬할 수 있음.
  * 
+ * !!주의 => 해당 코드에서 슬라이딩 윈도우 기법으로 최솟값을 찾아나갈 때
+ * 			첫 번째 값인 1부터 숫자를 하나씩 추가하여 순차적으로 슬라이딩 함. 
+ * 			ex) (0,0,1), (0,1,5), (1,5,2), (5,2,3), (2,3,6) ...
+ * 
  * <예시>
  * 12 3
  * 1 5 2 3 6 2 3 7 3 5 2 6
@@ -42,7 +46,7 @@ public class Lowest_value11003 {
 				mydeque.removeLast();
 			}
 			mydeque.addLast(new Node(now, i)); // while의 조건 내용을 처리했다면, 이제 (3,2)노드 추가
-			if(i - L >= mydeque.getFirst().index) {
+			if(i - L >= mydeque.getFirst().index) { // 현재 i번째 반복 - 슬라이딩 윈도우 범위 크기 >= first Node의 index값
 				mydeque.removeFirst();
 			}
 			bw.write(mydeque.getFirst().value + " ");
