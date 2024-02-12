@@ -17,10 +17,9 @@ public class TriangleCalculate14215 {
 		String say = sc.nextLine(); // 값 받아오기
 		sc.close();
 		String[] said = say.split(" "); // 쪼개기
-		int[] judged = judge(Integer.parseInt(said[0]), Integer.parseInt(said[1]), Integer.parseInt(said[2])); // 정렬시켜서
-																												// int
-																												// 배열에
-																												// 담기
+		
+		// 정렬시켜서 int 배열에 담기
+		int[] judged = judge(Integer.parseInt(said[0]), Integer.parseInt(said[1]), Integer.parseInt(said[2])); 
 		int[] checked = check(judged[0], judged[1], judged[2]); // 삼각형 공식에 맞게 수정한 숫자들을 담은 배열
 		System.out.println(checked[0] + checked[1] + checked[2]);
 		
